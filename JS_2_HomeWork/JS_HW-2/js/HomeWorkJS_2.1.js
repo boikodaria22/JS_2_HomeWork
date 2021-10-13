@@ -1,11 +1,11 @@
 var user = {
-	name: 'Daria',
-	sayHello: function(wellcome = 'Good day') {
+	name: 'Дарья',
+	sayHello: function(wellcome = 'Добрый день') {
 		if (typeof(this.name) === 'string' && typeof(this.name) !== undefined && this.name.length !== 0) {
-			return (`${wellcome}` + ',' + `${this.name}!`);
+			return (`${wellcome}, ${this.name}!`);
 		} else {
-			return ('User name is not defined');
+			return ('Имя пользователя не указано');
 		}
 	}
 };
-user.sayHello('Hi');
+user.sayHello('Привет');
