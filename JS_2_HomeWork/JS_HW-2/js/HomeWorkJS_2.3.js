@@ -1,8 +1,8 @@
 function showStudentsFavoriteLessons() {
 	var lessons = ['Математика', 'История', 'Спорт', 'Литература', 'Биология', 'География'];
 	for (var i = 0; i < arguments.length; i++) {
-		var listOfFavoriteLesson = checkStudentFavoriteLessons(arguments[i], lessons);
-		console.log(listOfFavoriteLesson);
+		var listOfFavoriteLessons = checkStudentFavoriteLessons(arguments[i], lessons);
+		console.log(listOfFavoriteLessons);
 	}
 
 	function checkStudentFavoriteLessons(nameStudent, arr) {
